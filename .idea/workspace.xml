@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styleUsuarios.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleUsuarios.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/w3.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/w3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +19,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1tqjlY43qiAEAgxrQTeuSMCXBIF" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -52,6 +50,7 @@
       <workItem from="1623503666116" duration="1553000" />
       <workItem from="1623514847935" duration="636000" />
       <workItem from="1623591453712" duration="12607000" />
+      <workItem from="1623687295506" duration="908000" />
     </task>
     <servers />
   </component>
@@ -68,6 +67,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="75" y="73" key="#PHP" timestamp="1623596823917">

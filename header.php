@@ -16,7 +16,7 @@
 
         <div id="inicio-sesion">
             <p>Bienvenido Admi</p>
-            <a href="#" id="cerrar-sesion">Cerrar Sesion</a>
+            <a href="index.php" id="cerrar-sesion">Cerrar Sesion</a>
         </div>
     </header>
     <nav id="navegador" class="w3-center">
