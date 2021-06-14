@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/TpFinal/css/w3.css">
     <link rel="stylesheet" href="/TpFinal/css/headerFooterStyle.css">
+    <link rel="stylesheet" href="css/styleUsuarios.css">
     <title>Document</title>
 </head>
 <body>
