@@ -5,9 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/TpFinal/css/w3.css">
-    <link rel="stylesheet" href="/TpFinal/css/headerFooterStyle.css">
-    <link rel="stylesheet" href="css/styleUsuarios.css">
+    <link rel="stylesheet" href="/TpFinal/view/css/w3.css">
+    <link rel="stylesheet" href="/TpFinal/view/css/headerFooterStyle.css">
+    <link rel="stylesheet" href="/TpFinal/view/css/styleUsuarios.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,7 +29,7 @@
                     <label for="clave">Contraseña:</label>
                     <input type="password" id="clave" name="clave" class="w3-input w3-margin-bottom" aria-required="true" aria-invalid="true">
 
-                    <a id="btnLogin" class="w3-btn-block w3-margin-top" href="reportes.php">INGRESAR</a>
+                    <a id="btnLogin" class="w3-btn-block w3-margin-top" href="/TpFinal/view/reportes.php">INGRESAR</a>
                     <a id="btnOlvideClave" class="w3-transparent w3-block w3-margin-top w3-center w3-text-blue" href="">Olvidé mi contraseña</a>
 
                 </form>
@@ -39,4 +39,4 @@
     </section>
     </form>
 </main>
-<?php include "footer.php"?>
+<?php include "view/partial/footer.php" ?>
