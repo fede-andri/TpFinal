@@ -20,7 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/Renderer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/loginView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleInitializer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/helper/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/footer.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/header.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/reportes.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/reportesView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/rolesView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +57,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/view/partial" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TpFinal\view\partial" />
+      <recent name="C:\xampp\htdocs\TpFinal\helper" />
+      <recent name="C:\xampp\htdocs\TpFinal" />
+      <recent name="C:\xampp\htdocs\TpFinal\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\TpFinal\view" />
       <recent name="C:\xampp\htdocs\TpFinal\view\partial" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\TpFinal" />
-      <recent name="C:\xampp\htdocs\TpFinal\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,6 +84,7 @@
       <workItem from="1623514847935" duration="636000" />
       <workItem from="1623591453712" duration="12607000" />
       <workItem from="1623687295506" duration="908000" />
+      <workItem from="1623966709132" duration="4277000" />
     </task>
     <servers />
   </component>
@@ -94,10 +108,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="75" y="73" key="#PHP/0.0.1440.860@0.0.1440.860" timestamp="1623596823917" />
-    <state x="194" y="353" key="NewPhpFileDialog" timestamp="1623514888078">
+    <state x="194" y="353" key="NewPhpFileDialog" timestamp="1623970398450">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="194" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1623514888078" />
+    <state x="194" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1623970398450" />
     <state x="24" y="197" key="run.anything.popup" timestamp="1623594131782">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

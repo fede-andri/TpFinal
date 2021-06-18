@@ -9,7 +9,7 @@
     <title>Administrador</title>
 </head>
 <body>
-    <?php include "partial/header.php" ?>
+    <?php include "partial/header.mustache" ?>
     <table class="w3-table-all">
         <thead>
         <tr class="w3-light-grey">
@@ -39,6 +39,6 @@
             <td class="w3-center"><a href="#" class="boton">ROL</a></td>
         </tr>
     </table>
-    <?php include "partial/footer.php" ?>
+    <?php include "partial/footer.mustache" ?>
 </body>
 </html>
