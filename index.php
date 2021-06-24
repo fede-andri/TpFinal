@@ -31,7 +31,7 @@
 
                     <a id="btnLogin" class="w3-btn-block w3-margin-top" href="/TpFinal/view/reportesView.php">INGRESAR</a>
                     <a id="btnOlvideClave" class="w3-transparent w3-block w3-margin-top w3-center w3-text-blue" href="">Olvidé mi contraseña</a>
-
+                    <a id="btnRegistro" class="w3-transparent w3-block w3-margin-top w3-center w3-text-blue" href="/view/partial/registroView.php">Quiero Regristrarme</a>
                 </form>
 
             </div>

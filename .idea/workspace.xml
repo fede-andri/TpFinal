@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/controllerUsuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/userModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/registroView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/partial/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/header.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/css/styleUsuarios.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/styleUsuarios.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/view/partial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,6 +86,8 @@
       <workItem from="1623687295506" duration="908000" />
       <workItem from="1623966709132" duration="4277000" />
       <workItem from="1624075576780" duration="96000" />
+      <workItem from="1624293983038" duration="603000" />
+      <workItem from="1624378574528" duration="4235000" />
     </task>
     <servers />
   </component>
@@ -94,19 +105,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="75" y="73" key="#PHP" timestamp="1623596823917">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="75" y="73" key="#PHP/0.0.1440.860@0.0.1440.860" timestamp="1623596823917" />
-    <state x="194" y="353" key="NewPhpFileDialog" timestamp="1623970398450">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="194" y="353" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1623970398450" />
-    <state x="24" y="197" key="run.anything.popup" timestamp="1623594131782">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="24" y="197" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1623594131782" />
   </component>
 </project>
