@@ -7,7 +7,7 @@
         }
 
         public function getUsuario($user,$password){
-            return $this->conexion->query("SELECT * FROM usuario WHERE email = '$user' AND contraseña = '$password'");
+            return $this->conexion->query("SELECT * FROM usuarios WHERE email = '".$user. "' AND password = '".$password."';");
         }
     }
-?>
+

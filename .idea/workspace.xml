@@ -20,25 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/controllerUsuario.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/userModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/registroView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/rolController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/RolModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/rolDescriptionView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/rolView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TpFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TpFinal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleInitializer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/helper/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/styleUsuarios.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/styleUsuarios.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/LoginModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/LoginModel.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/third-party/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
   <component name="ProjectId" id="1tqjlY43qiAEAgxrQTeuSMCXBIF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -88,6 +96,10 @@
       <workItem from="1624075576780" duration="96000" />
       <workItem from="1624293983038" duration="603000" />
       <workItem from="1624378574528" duration="4235000" />
+      <workItem from="1624655660709" duration="2416000" />
+      <workItem from="1624658529505" duration="1159000" />
+      <workItem from="1624698668886" duration="4839000" />
+      <workItem from="1624713885034" duration="20576000" />
     </task>
     <servers />
   </component>
@@ -105,5 +117,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

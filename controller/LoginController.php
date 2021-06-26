@@ -19,6 +19,7 @@
                 echo $this->renderer->render("view/loginView.php");
                 if(!empty($_POST)){
                     if(empty($_POST['email'])||empty($_POST['clave'])){
+
                         header("location: index.php");
                     }else{
                         $dataUsuario = $this->model->getUsuario($_POST['email'],md5($_POST['clave']));

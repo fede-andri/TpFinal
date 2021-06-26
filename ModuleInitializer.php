@@ -26,4 +26,13 @@ class ModuleInitializer{
     public function createDefaultController(){
         return $this->createLoginController();
     }
+
+    public function createRolController(){
+        include_once("controller/rolController.php");
+        include_once("model/RolModel.php");
+        $model= new RolModel($this->database);
+        return new RolController($model, $this->renderer);
+    }
+
+
 }
