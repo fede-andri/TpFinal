@@ -10,9 +10,9 @@
 
             <div class="w3-container w3-white w3-padding-bottom" style="width:100%; padding: 5px 24px;">
 
-                <form id="formLogin" action="/" method="post" >
+                <form id="formLogin" action="index.php?module=login&action=verificar" method="POST" >
 
-                    <label for="usuario">Usuario:</label>
+                    <label for="usuario">Correo electronico:</label>
                     <input type="email" id="email" name="email" class="w3-input" aria-required="true" aria-invalid="true">
 
                     <label for="clave">Contraseña:</label>
@@ -29,6 +29,6 @@
 
         </div>
     </section>
-    </form>
+
 </main>
 {{>footer}}

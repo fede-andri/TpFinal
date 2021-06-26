@@ -19,26 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/controllerUsuario.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/userModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/registroView.php" afterDir="false" />
+    <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="se agrego un logo (Transporte San Justo)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/styleUsuarios.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/styleUsuarios.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UsuarioController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/loginView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/loginView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/registroUsuarioView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/registroUsuarioView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/third-party/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
   <component name="ProjectId" id="1tqjlY43qiAEAgxrQTeuSMCXBIF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,10 +48,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,7 +90,37 @@
       <workItem from="1624075576780" duration="96000" />
       <workItem from="1624293983038" duration="603000" />
       <workItem from="1624378574528" duration="4235000" />
+      <workItem from="1624655660709" duration="2416000" />
+      <workItem from="1624658529505" duration="1159000" />
+      <workItem from="1624698668886" duration="4839000" />
+      <workItem from="1624713885034" duration="20576000" />
+      <workItem from="1624962259222" duration="3000" />
+      <workItem from="1624962303019" duration="7084000" />
+      <workItem from="1624979331234" duration="8773000" />
+      <workItem from="1625004774524" duration="1166000" />
     </task>
+    <task id="LOCAL-00001" summary="se agrego el controller, el model y la view de los roles">
+      <created>1624974401053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624974401053</updated>
+    </task>
+    <task id="LOCAL-00002" summary="se agrego homeView.php">
+      <created>1624979667722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624979667722</updated>
+    </task>
+    <task id="LOCAL-00003" summary="se agrego un logo (Transporte San Justo)">
+      <created>1624982301829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624982301829</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +137,13 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="se agrego el homeView.php" />
+    <MESSAGE value="se agrego el controller, el model y la view de los roles" />
+    <MESSAGE value="se agrego homeView.php" />
+    <MESSAGE value="se agrego un logo (Transporte San Justo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrego un logo (Transporte San Justo)" />
   </component>
 </project>

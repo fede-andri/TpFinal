@@ -6,8 +6,13 @@
             $this->conexion=$database;
         }
 
-        public function getUsuario($user,$password){
-            return $this->conexion->query("SELECT * FROM usuario WHERE email = '$user' AND contraseña = '$password'");
+        public function validarUsuario($user,$password){
+            if(isset($user) && isset($password)){
+                return $this->conexion->query("SELECT id_rol, nombre, apellido FROM usuario WHERE email = '".$user. "' AND contraseña = '".$password."'");
+            }else{
+                header("location: index.php");
+            }
+
         }
     }
-?>
+

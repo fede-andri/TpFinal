@@ -2,8 +2,8 @@
 
 class Router{
     public static function executeActionFromController($moduleInitializer, $module, $action){
-        $controller = self::createControllerFrom($moduleInitializer, $module);
-        self::executeActionFrom($controller, $action);
+        $controller = self::createControllerFrom($moduleInitializer, $module);    // arma e inicializa un controlador
+        self::executeActionFrom($controller, $action);                            // rutea al  controlador y dentro a un metodo o action
     }
 
     private static function createControllerFrom($moduleInitializer,$module){

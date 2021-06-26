@@ -7,7 +7,7 @@ class controllerUsuario{
     }
 
     public function execute(){
-        echo $this->render->render("view/partial/registroView.php");
+        echo $this->render->render("view/partial/registroUsuarioView.php");
     }
 
     public function agregarUsuario(){

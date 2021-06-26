@@ -8,7 +8,7 @@
         }
 
         public function query($sql){
-            $resultado = mysqli_query($this->conexion,$sql);
+            $resultado = mysqli_query($this->conexion , $sql);
             $resultadoArrayAssoc = mysqli_fetch_all($resultado,MYSQLI_ASSOC);
             return $resultadoArrayAssoc;
         }

@@ -19,6 +19,7 @@
                 echo $this->renderer->render("view/loginView.php");
                 if(!empty($_POST)){
                     if(empty($_POST['email'])||empty($_POST['clave'])){
+
                         header("location: index.php");
                     }else{
                         $dataUsuario = $this->model->getUsuario($_POST['email'],md5($_POST['clave']));
@@ -45,6 +46,22 @@
                 }
             }
         }
+
+        public function verificar()
+        {
+            $usuario = $_POST['email'];
+            $clave = $_POST['clave'];
+            if(($usuario != '') && ($clave != ''))
+            {
+                $data['nombre'] = $this->model->validarUsuario($usuario, $clave);
+                if(!empty($data)){
+                    echo $this->renderer->render("view/homeView.php", $data);
+                }else{
+                    header("location: index.php");
+                }
+            }else{
+                header("location: index.php");
+            }
+        }
     }
 
-?>
