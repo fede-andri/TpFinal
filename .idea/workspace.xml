@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="se agrego un logo (Transporte San Justo)">
+    <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="se agregaron los modulos de usuario pero falta completarlo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UsuarioController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/UsuarioModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/UsuarioModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/loginView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/loginView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/registroUsuarioView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/registroUsuarioView.php" afterDir="false" />
     </list>
@@ -97,7 +98,11 @@
       <workItem from="1624962259222" duration="3000" />
       <workItem from="1624962303019" duration="7084000" />
       <workItem from="1624979331234" duration="8773000" />
-      <workItem from="1625004774524" duration="1166000" />
+      <workItem from="1625004774524" duration="1516000" />
+      <workItem from="1625064904532" duration="508000" />
+      <workItem from="1625093693846" duration="6085000" />
+      <workItem from="1625128756951" duration="11252000" />
+      <workItem from="1625184981568" duration="1904000" />
     </task>
     <task id="LOCAL-00001" summary="se agrego el controller, el model y la view de los roles">
       <created>1624974401053</created>
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624982301829</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="se agregaron los modulos de usuario pero falta completarlo">
+      <created>1625013731359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625013731359</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +156,7 @@
     <MESSAGE value="se agrego el controller, el model y la view de los roles" />
     <MESSAGE value="se agrego homeView.php" />
     <MESSAGE value="se agrego un logo (Transporte San Justo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="se agrego un logo (Transporte San Justo)" />
+    <MESSAGE value="se agregaron los modulos de usuario pero falta completarlo" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agregaron los modulos de usuario pero falta completarlo" />
   </component>
 </project>

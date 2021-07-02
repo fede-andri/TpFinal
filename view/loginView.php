@@ -20,7 +20,9 @@
 
                     <input type="submit" id="btnLogin" class="w3-btn-block w3-margin-top" value="Ingresar"></input>
                     <a id="btnOlvideClave" class="w3-transparent w3-block w3-margin-top w3-center w3-text-blue" href="">Olvidé mi contraseña</a>
+                    <a id="btnOlvideClave" class="w3-transparent w3-block w3-margin-top w3-center w3-text-orange" href="index.php?module=usuario&action=registrarUsuario">Registrarse</a>
                 </form>
+
 
             </div>
         </div>
