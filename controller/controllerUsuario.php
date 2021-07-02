@@ -11,7 +11,7 @@ class controllerUsuario{
     }
 
     public function agregarUsuario(){
-        $data["nombre"]
+        $data["nombre"];
 
     }
 
