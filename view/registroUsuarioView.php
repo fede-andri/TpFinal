@@ -2,7 +2,7 @@
 
 
         <section id="agregar-usuario">
-            <div class="w3-row w3-container w3-center">
+            <div class="w3-row w3-container w3-center w3-display-middle">
 
                 <div id="formulario" class=" w3-padding-16 w3-col m6 w3-center">
 

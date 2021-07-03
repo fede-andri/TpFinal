@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="se repararon errores que no permitian el push">
+      <change afterPath="$PROJECT_DIR$/view/registroErroneoView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/registroExitosoView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleInitializer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/controllerUsuario.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/rolController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/RolController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/imagenes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/LoginModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/LoginModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/registroUsuarioView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/registroUsuarioView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
@@ -105,7 +104,7 @@
       <workItem from="1625128756951" duration="11252000" />
       <workItem from="1625184981568" duration="2855000" />
       <workItem from="1625300369540" duration="815000" />
-      <workItem from="1625302776673" duration="3554000" />
+      <workItem from="1625302776673" duration="4628000" />
     </task>
     <task id="LOCAL-00001" summary="se agrego el controller, el model y la view de los roles">
       <created>1624974401053</created>
@@ -149,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625305210914</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="se repararon errores que no permitian el push">
+      <created>1625307118704</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625307118704</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
