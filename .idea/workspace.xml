@@ -19,14 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="se agrego el registro de los usuarios">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="se repararon errores que no permitian el push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/controllerUsuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controllerUsuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/userModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/rolesView.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleInitializer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controllerUsuario.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/rolController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/RolController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/imagenes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/LoginModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/LoginModel.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <workItem from="1625128756951" duration="11252000" />
       <workItem from="1625184981568" duration="2855000" />
       <workItem from="1625300369540" duration="815000" />
-      <workItem from="1625302776673" duration="1597000" />
+      <workItem from="1625302776673" duration="3554000" />
     </task>
     <task id="LOCAL-00001" summary="se agrego el controller, el model y la view de los roles">
       <created>1624974401053</created>
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625187680082</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="se agrego el registro de los usuarios">
+      <created>1625305210914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625305210914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +174,9 @@
     <MESSAGE value="se agrego homeView.php" />
     <MESSAGE value="se agrego un logo (Transporte San Justo)" />
     <MESSAGE value="se agregaron los modulos de usuario pero falta completarlo" />
+    <MESSAGE value="se eliminaron archivos innecesarios" />
     <MESSAGE value="se agrego el registro de los usuarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="se agrego el registro de los usuarios" />
+    <MESSAGE value="se repararon errores que no permitian el push" />
+    <option name="LAST_COMMIT_MESSAGE" value="se repararon errores que no permitian el push" />
   </component>
 </project>
