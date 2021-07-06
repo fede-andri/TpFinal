@@ -1,4 +1,23 @@
-{{> header}}
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="view/css/headerFooterStyle.css">
+
+    <title>Transporte San Justo</title>
+</head>
+<header >
+    <div id="header">
+        <div >
+            <img src="images/logo-transporte2.png" height="150px" width="150px" alt="Logo" >
+        </div>
+    </div>
+</header>
+<body>
 
 
         <section id="agregar-usuario">
@@ -31,6 +50,7 @@
                             <option value="G - Contenedores">G - Contenedores</option>
                             <option value="H - Hacienda">H - Hacienda</option>
                             <option value="I - Sustancias alimenticias">I - Sustancias alimenticias</option>
+                            <option value="Sin licencia" selected>Sin licencia</option>
                         </select>
 
                         <label for="vencimiento">FECHA DE VENCIMIENTO</label>
@@ -44,6 +64,8 @@
                         <input type="password" name="password" id="password" class="w3-input"placeholder="Ingrese su contraseña" required>
 
                         <input type="submit" value="CONFIRMAR" class="w3-btn-block w3-margin-top" id="boton">
+                        <br><br>
+                        <a class="w3-blue-gray" href="index.php?module=login&action=index">Salir</a>
 
                     </form>
                 </div>

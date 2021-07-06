@@ -3,7 +3,7 @@
 
     <h1 class="w3-wide">Bienvenido al sistema</h1>
     {{#nombre}}
-    <h2>{{nombre}}  {{apellido}}</h2>
+    <h2>{{{nombre}}}  {{apellido}}</h2>
     {{/nombre}}
     <a href=></a>
 

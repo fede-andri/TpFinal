@@ -10,7 +10,8 @@ class RolModel
     }
 
     public function getRoles(){
-        return $this->database->query("SELECT * FROM usuario");
+        $sql = "SELECT * FROM usuario";
+        return $this->database->query($sql);
     }
 
     public function getRol($id){
@@ -20,7 +21,7 @@ class RolModel
 
     public function setRol($id, $rol)
     {
-        $sql = "UPDATE usuario SET id_rol=". $rol . " WHERE id_usuario=" .$id;
+        $sql = "UPDATE usuario SET id_rol=". $rol . " WHERE id_usuario='" .$id."'";
 
         return $this->database->query($sql);
     }

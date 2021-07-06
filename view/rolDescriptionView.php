@@ -33,7 +33,7 @@
     Error cancion no encontrada
     {{/rol}}
 </div>
-{{> footer}}
+
 
 
 
