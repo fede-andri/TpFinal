@@ -10,21 +10,34 @@ class UsuarioModel
         $this->database = $database;
     }
 
-    public function nuevoUsuario($data){
+    public function nuevoUsuario(){
 
-        $nombre = $data['nombre'];
-        $apellido = $data['apellido'];
-        $fecha_nac = $data['fecha_nac'];
-        $dni = $data['dni'];
-        $tipo_licencicia = $data['licencia'];
-        $fecha_vencimiento = $data['vencimiento'];
-        $email = $data['email'];
-        $password  = $data['password'];
-       return $this->database->query("INSERT INTO usuario (nombre, apellido, fecha_nac, dni, tipo_licencia, fecha_vencimiento, email, contraseña) 
-        VALUES ('".$nombre."','".$apellido."','".$fecha_nac."','".$dni."','".$tipo_licencicia."','".$fecha_vencimiento."','".$email."','".$password."')");
+        $nombre = $_POST['nombre'];
+        $apellido = $_POST['apellido'];
+        $fecha_nac = $_POST['fecha_nac'];
+        $dni = $_POST['dni'];
+        $tipo_licencia = $_POST['licencia'];
+        $fecha_vencimiento = $_POST['vencimiento'];
+        $email = $_POST['email'];
+        $password  = $_POST['password'];
 
-       /* echo("INSERT INTO usuario (nombre, apellido, fecha_nac, dni, tipo_licencia, fecha_vencimiento, email, contraseña)
-                                     VALUES ('".$data['nombre']."','".$data['apellido']."','".$data['fecha_nac']."','".$data['dni'].
-            "','".$data['licencia']."','".$data['vencimiento']."','".$data['email']."','".$data['password']."')"); exit;   */
+        $sql = "INSERT INTO usuario (nombre, apellido, fecha_nac, dni, tipo_licencia, fecha_vencimiento, email, password 
+        VALUES ('".$nombre."','".$apellido."','".$fecha_nac."',".$dni.",'".$tipo_licencia."','".$fecha_vencimiento."','".$email."','".$password."')";
+        //echo $sql; exit;
+        return $this->database->query($sql);
+
+    }
+
+    public function listarUsuarios(){
+        $sql = "SELECT * FROM usuario ";
+        return $this->database->query($sql);
+    }
+
+    public function getAltaUsuario(){
+        $sql = "SELECT * FROM usuario WHERE activo = NULL";
+    }
+
+    public function eliminarUsuario(){
+        $sql = "DELETE FROM usuario WHERE id_usuario LIKE "
     }
 }

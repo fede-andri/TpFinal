@@ -13,22 +13,34 @@ class UsuarioController
     }
 
     public function registrarUsuario(){
-        $data=null;
         echo $this->render->render("view/registroUsuarioView.php");
     }
 
     public function guardarUsuario(){
-        $nombre = $_POST['nombre'];
-        $apellido = $_POST['apellido'];
-        $fecha_nac = $_POST['fecha_nac'];
-        $dni = $_POST['dni'];
-        $licencia = $_POST['licencia'];
-        $vencimiento = $_POST['vencimiento'];
-        $email = $_POST['email'];
-        $password = $_POST['password'];
 
-        $data = array('nombre'=>$nombre, 'apellido'=>$apellido, 'fecha_nac'=>$fecha_nac, 'dni'=>$dni, 'licencia'=>$licencia, 'vencimiento'=>$vencimiento, 'email'=>$email, 'password'=>$password);
+        $resultado = $this->usuarioModel->nuevoUsuario();
+        //$resultado = TRUE;
+        if($resultado == TRUE){
+            echo $this->render->render("view/registroExitosoView.php");
+        }else{
+            echo $this->render->render("view/registroErroneoView.php");
+        }
+    }
 
-        $this->usuarioModel->nuevoUsuario($data);
+    public function getUsuarios(){
+        $data['usuarios'] = $this->usuarioModel->listarUsuarios();
+        if(count($data)>0){
+            //var_dump($data); exit;
+            echo $this->render->render("view/usuariosView.php",$data);
+        }
+
+    }
+    public function bajaUsuario(){
+        $data = $this->usuarioModel->eliminarUsuario();
+            if(count($data) != 0 ){
+                echo $this->render->render("view/usuariosView.php", $data);
+            }else{
+
+            }
     }
 }

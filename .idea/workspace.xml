@@ -19,11 +19,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="se repararon errores que no permitian el push">
-      <change afterPath="$PROJECT_DIR$/view/registroErroneoView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/registroExitosoView.php" afterDir="false" />
+    <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="se agrego el registro exitoso y erroneo">
+      <change afterPath="$PROJECT_DIR$/controller/AdministradorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo-transporte2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/AdministradorModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/administradorView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/choferView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/loginErroneoView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/mecanicoView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/supervisorView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/usuariosView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleInitializer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UsuarioController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/LoginModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/LoginModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/RolModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/RolModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/UsuarioModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/UsuarioModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/css/headerFooterStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/headerFooterStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/homeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/homeView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/loginView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/loginView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/footer.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/footer.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/header.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/registroErroneoView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/registroErroneoView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/registroExitosoView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/registroExitosoView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/registroUsuarioView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/registroUsuarioView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/rolDescriptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/rolDescriptionView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/rolView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/rolView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +129,14 @@
       <workItem from="1625128756951" duration="11252000" />
       <workItem from="1625184981568" duration="2855000" />
       <workItem from="1625300369540" duration="815000" />
-      <workItem from="1625302776673" duration="4628000" />
+      <workItem from="1625302776673" duration="4806000" />
+      <workItem from="1625317921533" duration="72000" />
+      <workItem from="1625340475513" duration="12798000" />
+      <workItem from="1625394046175" duration="3884000" />
+      <workItem from="1625398101726" duration="17656000" />
+      <workItem from="1625429977683" duration="16311000" />
+      <workItem from="1625478319633" duration="8469000" />
+      <workItem from="1625530897081" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="se agrego el controller, el model y la view de los roles">
       <created>1624974401053</created>
@@ -155,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625307118704</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="se agrego el registro exitoso y erroneo">
+      <created>1625308350762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625308350762</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +222,7 @@
     <MESSAGE value="se eliminaron archivos innecesarios" />
     <MESSAGE value="se agrego el registro de los usuarios" />
     <MESSAGE value="se repararon errores que no permitian el push" />
-    <option name="LAST_COMMIT_MESSAGE" value="se repararon errores que no permitian el push" />
+    <MESSAGE value="se agrego el registro exitoso y erroneo" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrego el registro exitoso y erroneo" />
   </component>
 </project>

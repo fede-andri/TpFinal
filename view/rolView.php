@@ -1,10 +1,10 @@
-
 {{> header}}
-<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
 
-    <h2 class="w3-wide">Roles</h2>
+<div class="w3-display-middle">
 
-    <table class="w3-table w3-striped">
+    <h2 >Roles</h2>
+
+    <table class="w3-table w3-display-middle">
         <tr class="w3-blue">
             <th class="w3-center">Id</th>
             <th class="w3-center">Nombres</th>
@@ -29,4 +29,3 @@
 
     </table>
 </div>
-{{> footer}}

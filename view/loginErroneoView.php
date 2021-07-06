@@ -20,8 +20,8 @@
 <body>
 <div class="w3-panel w3-blue-gray w3-display-middle w3-center">
     <h3>Error!</h3>
-    <p>Discupe un error no permitio finalizar con el registro</p>
-    <p>intente mas tarde...</p><br><br>
+    <p>Usuario y/o contraseña incorrecta</p>
+    <br><br>
     <a class="w3-button w3-orange" href="index.php?module=login&action=index">Aceptar</a>
 </div>
 

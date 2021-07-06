@@ -6,7 +6,7 @@ require_once('third-party/src/Mustache/Autoloader.php');
 
 
 class ModuleInitializer{
-    private $render;
+    private $renderer;
     private $database;
     private $configuracion;
 
@@ -37,5 +37,11 @@ class ModuleInitializer{
         return new RolController($model, $this->renderer);
     }
 
+    public function createAdministradorController(){
+        include_once("controller/AdministradorController.php");
+        include_once("model/AdministradorModel.php");
+        $model = new AdministradorModel($this->database);
+        return new AdministradorController($model, $this->renderer);
+    }
 
 }

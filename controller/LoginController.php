@@ -12,38 +12,11 @@
         
          public function index(){
             session_start();
-            if(!empty($_SESSION['active'])){
-                echo $this->renderer->render("view/reportesView.php");
+            if(isset($_SESSION['nombre'])){
+                LoginController::verificar();
             }else{
                 ob_start();
                 echo $this->renderer->render("view/loginView.php");
-                if(!empty($_POST)){
-                    if(empty($_POST['email'])||empty($_POST['clave'])){
-
-                        header("location: index.php");
-                    }else{
-                        $dataUsuario = $this->model->getUsuario($_POST['email'],md5($_POST['clave']));
-                        if(count($dataUsuario)>0 and $dataUsuario[0]["id_rol"]>0){
-                            $_SESSION['active']=true;
-                            $_SESSION['id_usuario']= $dataUsuario[0]['id_usuario'];
-                            $_SESSION['nombre']=$dataUsuario[0]['nombre'];
-                            $_SESSION['apellido'] = $dataUsuario[0]['apellido'];
-                            $_SESSION['email'] = $dataUsuario[0]['email'];
-                            $dataSesion = array();
-                            $dataSesion["datos"]['active'] = $_SESSION['active'];
-                            $dataSesion["datos"]['email'] = $_SESSION['email'];
-                            $dataSesion["datos"]['id_usuario'] = $_SESSION['id_usuario'];
-                            $dataSesion["datos"]['nombre'] = $_SESSION['nombre'];
-                            $dataSesion["datos"]['apellido'] = $_SESSION['apellido'];
-                            ob_end_clean();
-                            $this->renderer->render("view/partial/header.mustache",$dataSesion);
-                            echo $this->renderer->render("view/reportesView.php",$dataSesion);
-                        }else{
-                            header("location: index.php");
-                            session_destroy();
-                        }
-                    }
-                }
             }
         }
 
@@ -53,15 +26,43 @@
             $clave = $_POST['clave'];
             if(($usuario != '') && ($clave != ''))
             {
-                $data['nombre'] = $this->model->validarUsuario($usuario, $clave);
-                if(!empty($data)){
-                    echo $this->renderer->render("view/homeView.php", $data);
+                $data = $this->model->validarUsuario($usuario, $clave);
+
+                if(count($data) == 1 ){
+                    session_start();
+                    $_SESSION['nombre'] = $data[0]['nombre'];
+                    $_SESSION['apellido'] = $data[0]['apellido'];
+                    $_SESSION['rol'] = $data[0]['id_rol'];
+
+                    switch($_SESSION['rol']){
+                        case 1:
+                            header("location: index.php?module=administrador&action=index");
+                            break;
+                        case 2:
+                            echo $this->renderer->render("view/supervisorView.php", $data);
+                            break;
+                        case 3:
+                            echo $this->renderer->render("view/choferView.php", $data);
+                            break;
+                        case 4:
+                            echo $this->renderer->render("view/mecanicoView.php", $data);
+                            break;
+                        default:
+                            echo $this->renderer->render("view/loginView.php", $data);
+                            break;
+                    }
                 }else{
-                    header("location: index.php");
+                    echo $this->renderer->render("view/loginErroneoView.php",$data);
                 }
             }else{
                 header("location: index.php");
             }
+        }
+        public function cerrarSesion(){
+            session_start();
+            session_unset();
+            session_destroy();
+            echo $this->renderer->render("view/loginView.php");
         }
     }
 
