@@ -20,7 +20,7 @@
 <body>
     <div class="w3-panel w3-blue-gray w3-display-middle w3-center">
         <h3>Bienvenido!</h3>
-        <p>Un email fue enviado para confirmar su registro.</p><br><br>
+        <p>Un email fue enviado para confirmar y finalizar su registro. </p><br><br>
         <a class="w3-button w3-orange" href="index.php?module=login&action=index">Aceptar</a>
     </div>
 

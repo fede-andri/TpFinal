@@ -61,7 +61,10 @@
 
 
                         <label for="password">CONTRASEÑA</label>
-                        <input type="password" name="password" id="password" class="w3-input"placeholder="Ingrese su contraseña" required>
+                        <input type="password" name="password1" id="password1" class="w3-input"placeholder="Ingrese su contraseña" required>
+
+
+                        <input type="password" name="password2" id="password2" class="w3-input"placeholder="Reinngrese su contraseña" required>
 
                         <input type="submit" value="CONFIRMAR" class="w3-btn-block w3-margin-top" id="boton">
                         <br><br>

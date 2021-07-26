@@ -9,10 +9,16 @@
 
         public function query($sql){
             $resultado = mysqli_query($this->conexion , $sql);
-            $resultadoArrayAssoc = mysqli_fetch_all($resultado,MYSQLI_ASSOC);
-            return $resultadoArrayAssoc;
+            if($resultado){
+                return mysqli_fetch_all($resultado,MYSQLI_ASSOC);
+            }else{
+                return false;
+            }
         }
 
+        public function execute($sql){
+            mysqli_query($this->conexion, $sql);
+        }
         public function __destruct(){
             mysqli_close($this->conexion);
         }

@@ -1,10 +1,12 @@
-{{>header}}
+{{> headerAdministrador}}
 
-<div class="w3-display-middle">
+
+<div class=" w3-container">
 
     <h2 >Usuarios</h2>
 
-    <table class="w3-table w3-display-middle">
+
+    <table style="width:100%" class="w3-tables w3-center">
         <tr class="w3-blue">
             <th class="w3-center">Id</th>
             <th class="w3-center">Nombre</th>
@@ -17,6 +19,8 @@
             <th class="w3-center">Horas de viaje</th>
             <th class="w3-center">tipo de rol</th>
             <th class="w3-center">Estado</th>
+            <th class="w3-center"></th>
+            <th class="w3-center"></th>
         </tr>
 
         {{#usuarios}}
@@ -32,10 +36,11 @@
                 <td class="w3-center">{{horas_viaje}}
                 <td class="w3-center">{{id_rol}}</td>
                 <td class="w3-center">{{activo}}</td>
-                <td class="w3-center"> <a href="index.php?module=usuario&action=activar">Activar</a>
-                <td class ="w3-center"><a href="index.php?module=usuario&action=bajaUsuario&id_usuario={{id_usuario}}">Baja de usuario</a>
+                <td class ="w3-center"><a class="boton w3-blue" href ="index.php?module=usuario&action=activarUsuario&id_usuario={{id_usuario}}">Activar/Desactivar</a></td>
+                <td class ="w3-center"><a class="boton w3-blue" href="index.php?module=usuario&action=bajaUsuario&id_usuario={{id_usuario}}">Eliminar</a></td>
 
             </tr>
         {{/usuarios}}
     </table>
 </div>
+{{>footer}}

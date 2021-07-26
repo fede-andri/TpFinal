@@ -19,8 +19,20 @@ class UsuarioController
     public function guardarUsuario(){
 
         $resultado = $this->usuarioModel->nuevoUsuario();
-        //$resultado = TRUE;
+        $valorVerifica = $this->usuarioModel->getUsuario($_POST['email']);
+
         if($resultado == TRUE){
+
+            $para      = $_POST['email'];
+            $titulo    = 'noreply@example.com';
+            $mensaje   = ' Ud. ha recibido este mail de verificacion de cuenta de nuestro sitio, por favor haga click en el siguiente enlace para completar el registro  '.
+                        'www.transportesanjusto.com//index.php?module=usuario&action=activarUsuario&id_usuario='.$valorVerifica['id_usuario'];
+            $cabeceras = 'From: transportesanjusto@gmail.com' . "\r\n" .
+                'Reply-To: webmaster@example.com' . "\r\n" .
+                'X-Mailer: PHP/' . phpversion();
+
+            @mail($para, $titulo, $mensaje, $cabeceras);
+
             echo $this->render->render("view/registroExitosoView.php");
         }else{
             echo $this->render->render("view/registroErroneoView.php");
@@ -36,11 +48,14 @@ class UsuarioController
 
     }
     public function bajaUsuario(){
-        $data = $this->usuarioModel->eliminarUsuario();
-            if(count($data) != 0 ){
-                echo $this->render->render("view/usuariosView.php", $data);
-            }else{
+        $this->usuarioModel->eliminarUsuario();
+        $data['usuarios'] = $this->usuarioModel->listarUsuarios();
+        echo $this->render->render("view/usuariosView.php", $data);
+    }
 
-            }
+    public function activarUsuario(){
+        $this->usuarioModel->activar();
+        $data['usuarios'] = $this->usuarioModel->listarUsuarios();
+        echo $this->render->render("view/usuariosView.php", $data);
     }
 }

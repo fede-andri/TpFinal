@@ -9,7 +9,7 @@
     <title>Administrador</title>
 </head>
 <body>
-    <?php include "partial/header.mustache" ?>
+    <?php include "partial/headerAdministrador.mustache" ?>
     <table class="w3-table-all">
         <thead>
         <tr class="w3-light-grey">

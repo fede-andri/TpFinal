@@ -3,7 +3,7 @@
 <div class="formulario">
     <br>
     <br>
-    <form action="index.php?module=cliente&action=verificar" method="POST" class="w3-margin-left">
+    <form action="index.php?module=cliente&action=guardar" method="POST" class="w3-margin-left">
 
         <h1>Formulario de nuevo de viajes</h1><br>
 
@@ -31,7 +31,7 @@
             </tr>
             <tr>
                 <th>Cuil:</th>
-                <td><input type="text" name="cuil"></td>
+                <td><input type="text" name="cuil" placeholder={{#cliente}}{{cuil}}{{/cliente}}></td>
             </tr>
             <tr>
                 <th>Calle:</th>

@@ -8,8 +8,9 @@
 
         public function validarUsuario($user,$password){
             if(isset($user) && isset($password)){
-                $sql = "SELECT id_rol, nombre, apellido FROM usuario WHERE email = '".$user. "' AND password = '".$password."'";
+                $sql = "SELECT id_rol, nombre, apellido, activo FROM usuario WHERE email = '".$user. "' AND password = '".$password."'";
                 return $this->conexion->query($sql);
+
             }else{
                 header("location: index.php");
             }

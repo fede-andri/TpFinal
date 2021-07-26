@@ -44,4 +44,38 @@ class ModuleInitializer{
         return new AdministradorController($model, $this->renderer);
     }
 
+    public function createChoferController(){
+        include_once("controller/ChoferController.php");
+        include_once("model/ChoferModel.php");
+        $model = new ChoferModel($this->database);
+        return new ChoferController($model, $this->renderer);
+    }
+
+    public function createFlotaController(){
+        include_once("controller/FlotaController.php");
+        include_once("model/FlotaModel.php");
+        $model = new FlotaModel($this->database);
+        return new FlotaController($model, $this->renderer);
+    }
+
+    public function createViajeController(){
+        include_once("controller/ViajeController.php");
+        include_once("model/ViajeModel.php");
+        $model = new ViajeModel($this->database);
+        return new ViajeController($model, $this->renderer);
+    }
+
+    public function createSupervisorController(){
+        include_once("controller/SupervisorController.php");
+        include_once("model/SupervisorModel.php");
+        $model = new SupervisorModel($this->database);
+        return new SupervisorController($model, $this->renderer);
+    }
+
+    public function createClienteController(){
+        include_once("controller/ClienteController.php");
+        include_once("model/ClienteModel.php");
+        $model = new ClienteModel($this->database);
+        return new ClienteController($model, $this->renderer);
+    }
 }

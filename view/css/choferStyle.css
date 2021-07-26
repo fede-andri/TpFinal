@@ -1,0 +1,12 @@
+.centrar{
+    width: 60%;
+    padding-top: 50px;
+    text-align: center;
+}
+.formulario{
+    margin: auto;
+    width: 60%;
+    border: 3px solid green;
+    padding: 10px;
+    padding-bottom: 50px;
+}

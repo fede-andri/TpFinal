@@ -40,8 +40,16 @@ nav a{
 footer{
     color: white;
     background-color: #637d9d;
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.arreglar{
+    min-height: calc(100vh - 150px - 40px - 150px );
+}
+
+.arreglar2{
+    min-height: calc(100vh - 150px - 150px );
 }

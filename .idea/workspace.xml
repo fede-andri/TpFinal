@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,7 +23,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a526ac00-8824-4e63-b060-d6a235645149" name="Default Changelist" comment="se agregaron los modulos administrador y login">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleInitializer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/ChoferController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ChoferController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/ClienteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ClienteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/FlotaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/FlotaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/SupervisorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/SupervisorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/UsuarioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/UsuarioController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/ViajeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ViajeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/helper/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/ClienteModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/ClienteModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/FlotaModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/FlotaModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/LoginModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/LoginModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/RolModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/RolModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/SupervisorModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/SupervisorModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/UsuarioModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/UsuarioModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/ViajeModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/ViajeModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/camiones.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/camiones.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/administradorView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/administradorView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/choferView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/choferView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/clienteView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/clienteView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/css/choferStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/choferStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/css/headerFooterStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/headerFooterStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/detalleViajeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/detalleViajeView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/editarVehiculoView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/editarVehiculoView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/flotaView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/flotaView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/loginResetearPasswordView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/loginResetearPasswordView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/loginView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/loginView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/mecanicoView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/mecanicoView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/nuevoClienteView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/nuevoClienteView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/nuevoVehiculoView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/nuevoVehiculoView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/nuevoViajeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/nuevoViajeView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/footer.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/footer.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/headerAdministrador.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/headerAdministrador.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/headerChofer.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/headerChofer.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/partial/headerSupervisor.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/view/partial/headerSupervisor.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/registroExitosoView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/registroExitosoView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/registroUsuarioView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/registroUsuarioView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/reportesView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/reportesView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/rolDescriptionView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/rolDescriptionView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/rolView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/rolView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/supervisorView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/supervisorView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/usuariosView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/usuariosView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viajeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viajeView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +78,16 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/third-party/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -39,9 +97,15 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
   <component name="ProjectId" id="1tqjlY43qiAEAgxrQTeuSMCXBIF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -53,18 +117,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -75,9 +141,15 @@
       <recent name="C:\xampp\htdocs\TpFinal\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TpFinal\view\css" />
       <recent name="C:\xampp\htdocs\TpFinal\view" />
       <recent name="C:\xampp\htdocs\TpFinal\view\partial" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="localhost" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,7 +187,34 @@
       <workItem from="1625398101726" duration="17656000" />
       <workItem from="1625429977683" duration="16311000" />
       <workItem from="1625478319633" duration="8469000" />
-      <workItem from="1625530897081" duration="1448000" />
+      <workItem from="1625530897081" duration="1806000" />
+      <workItem from="1625609379291" duration="4132000" />
+      <workItem from="1625617434111" duration="2641000" />
+      <workItem from="1625650355566" duration="2043000" />
+      <workItem from="1625652574873" duration="8456000" />
+      <workItem from="1625830153337" duration="1485000" />
+      <workItem from="1625905628031" duration="6663000" />
+      <workItem from="1625913854759" duration="116000" />
+      <workItem from="1625914556322" duration="318000" />
+      <workItem from="1625914976814" duration="647000" />
+      <workItem from="1625916301838" duration="13823000" />
+      <workItem from="1625950049744" duration="7847000" />
+      <workItem from="1625998385095" duration="8884000" />
+      <workItem from="1626039236780" duration="14812000" />
+      <workItem from="1626128430147" duration="6515000" />
+      <workItem from="1626170792812" duration="2685000" />
+      <workItem from="1626182971497" duration="32745000" />
+      <workItem from="1626267007616" duration="630000" />
+      <workItem from="1626277654780" duration="1956000" />
+      <workItem from="1626436189290" duration="3446000" />
+      <workItem from="1626775376038" duration="1471000" />
+      <workItem from="1626950076127" duration="27702000" />
+      <workItem from="1626992361493" duration="49000" />
+      <workItem from="1626992446001" duration="8153000" />
+      <workItem from="1627076088319" duration="11510000" />
+      <workItem from="1627125300692" duration="19314000" />
+      <workItem from="1627214140769" duration="16586000" />
+      <workItem from="1627245467235" duration="16492000" />
     </task>
     <task id="LOCAL-00001" summary="se agrego el controller, el model y la view de los roles">
       <created>1624974401053</created>
@@ -180,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625531457907</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="se agregaron los modulos administrador y login">
+      <created>1625532607568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625532607568</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,5 +317,9 @@
     <MESSAGE value="se agrego el registro exitoso y erroneo" />
     <MESSAGE value="se agregaron los modulos administrador y login" />
     <option name="LAST_COMMIT_MESSAGE" value="se agregaron los modulos administrador y login" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

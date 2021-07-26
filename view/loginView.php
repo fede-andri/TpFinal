@@ -19,7 +19,7 @@
 </header>
 <body>
 
-<main class="w3-center w3-margin-top w3-margin-left">
+<main class="w3-center w3-margin-top w3-margin-left arreglar">
     <section class="contenedor-form-login w3-center w3-row">
         <div class="w3-container w3-col l4 m4">
 
@@ -39,7 +39,7 @@
                     <input type="password" id="clave" name="clave" class="w3-input w3-margin-bottom" aria-required="true" aria-invalid="true">
 
                     <input type="submit" id="btnLogin" class="w3-btn-block w3-margin-top" value="Ingresar"></input>
-                    <a id="btnOlvideClave" class="w3-transparent w3-block w3-margin-top w3-center w3-text-blue" href="">Olvidé mi contraseña</a>
+                    <a id="btnOlvideClave" class="w3-transparent w3-block w3-margin-top w3-center w3-text-blue" href="index.php?module=login&action=reseteo">Olvidé mi contraseña</a>
                     <a id="btnOlvideClave" class="w3-transparent w3-block w3-margin-top w3-center w3-text-orange" href="index.php?module=usuario&action=registrarUsuario">Registrarse</a>
                 </form>
 

@@ -23,6 +23,6 @@ class RolModel
     {
         $sql = "UPDATE usuario SET id_rol=". $rol . " WHERE id_usuario='" .$id."'";
 
-        return $this->database->query($sql);
+        return $this->database->execute($sql);
     }
 }

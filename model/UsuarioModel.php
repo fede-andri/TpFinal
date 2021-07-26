@@ -19,13 +19,24 @@ class UsuarioModel
         $tipo_licencia = $_POST['licencia'];
         $fecha_vencimiento = $_POST['vencimiento'];
         $email = $_POST['email'];
-        $password  = $_POST['password'];
+        $password1  = $_POST['password1'];
+        $password2  = $_POST['password2'];
 
-        $sql = "INSERT INTO usuario (nombre, apellido, fecha_nac, dni, tipo_licencia, fecha_vencimiento, email, password 
-        VALUES ('".$nombre."','".$apellido."','".$fecha_nac."',".$dni.",'".$tipo_licencia."','".$fecha_vencimiento."','".$email."','".$password."')";
-        //echo $sql; exit;
-        return $this->database->query($sql);
+        if($password1 == $password2){
 
+            $sql = "INSERT INTO usuario (nombre, apellido, fecha_nac, dni, tipo_licencia, fecha_vencimiento, email, password) 
+            VALUES ('".$nombre."','".$apellido."','".$fecha_nac."',".$dni.",'".$tipo_licencia."','".$fecha_vencimiento."','".$email."','".$password1."')";
+            $this->database->execute($sql);
+            $sql = "SELECT * FROM usuario WHERE email = '". $email."'";
+            $resultado = $this->database->query($sql);
+            if($email == $resultado[0]['email']){
+                return true;
+            }else{
+                return false;
+            }
+        }else{
+            return false;
+        }
     }
 
     public function listarUsuarios(){
@@ -33,11 +44,26 @@ class UsuarioModel
         return $this->database->query($sql);
     }
 
-    public function getAltaUsuario(){
-        $sql = "SELECT * FROM usuario WHERE activo = NULL";
+    public function getUsuario($email){
+        $sql = "SELECT * FROM usuario WHERE email = ".$email;
+        return $this->database->query($sql);
     }
 
     public function eliminarUsuario(){
-        $sql = "DELETE FROM usuario WHERE id_usuario LIKE "
+        $id = $_GET['id_usuario'];
+        $sql = "DELETE FROM usuario WHERE id_usuario LIKE '".$id."'";
+        $this->database->execute($sql);
+    }
+    public function activar(){
+        $id = $_GET['id_usuario'];
+        $sql = "SELECT activo FROM usuario WHERE id_usuario = '".$id."'";
+        $estado = $this->database->query($sql);
+
+        if ($estado[0]['activo'] == 'inactivo'){
+            $sql =  "UPDATE usuario SET activo = 'activo' WHERE id_usuario = '".$id."'";
+        }else{
+            $sql =  "UPDATE usuario SET activo = 'inactivo' WHERE id_usuario = '".$id."'";
+        }
+            $this->database->execute($sql);
     }
 }

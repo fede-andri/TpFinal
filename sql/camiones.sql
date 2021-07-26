@@ -12,19 +12,14 @@ create table usuario(
     nombre varchar(50),
     apellido varchar(50),
     dni int,
+    cuil varchar(50),
     tipo_licencia varchar(50),
     fecha_vencimiento varchar(10),
     email varchar(50),
-    contraseña varchar(50),
+    password varchar(50),
     id_rol int,
     primary key(id_usuario),
     foreign key(id_rol) references rol(id_rol)
-);
-
-create table equipo_arrastre(
-	id_arrastre int,
-    patente varchar(20),
-	primary key(id_arrastre)
 );
 
 create table vehiculo(
@@ -33,15 +28,30 @@ create table vehiculo(
     nro_chasis int,
     modelo varchar(30),
     marca varchar(30),
-    nro_motor int,
     kilometraje int,
     calendario_service varchar(30),
     año_fabricacion varchar(10),
     primary key(id_vehiculo)
 );
 
+create table acoplado(
+                         id_acoplado int auto_increment,
+                         tipo varchar(50),
+                         id_vehiculo int,
+                         primary key(id_acoplado),
+                         foreign key (id_vehiculo) references vehiculo (id_vehiculo)
+);
+
+create table camion(
+    id_camion int auto_increment,
+    nro_motor int,
+    id_vehiculo int,
+    primary key(id_camion),
+    foreign key (id_vehiculo) references vehiculo (id_vehiculo)
+);
+
 create table mantenimiento(
-	id_mantenimiento int,
+	id_mantenimiento int auto_increment,
     fecha_service varchar(11),
     costo int,
     service_interno varchar(100),
@@ -60,14 +70,15 @@ create table carga_combustible(
     cantidad int,
     kilometros_unidad int,
     importe int,
-    id_vehiculo int,
+    id_camion int,
     primary key(id_carga),
-    foreign key(id_vehiculo) references vehiculo(id_vehiculo)
+    foreign key(id_camion) references camion (id_camion)
 );
 
 create table cliente(
 	id_cliente int,
     dni int,
+    cuil varchar(50),
     nombre varchar(30),
     apellido varchar(40),
     calle varchar(50),
@@ -90,15 +101,8 @@ create table viaje(
     kilometros_reales int,
     cant_combustible_previsto int,
     cant_combustible_real int,
-    id_usuario int,
-    id_cliente int,
-    id_vehiculo int,
-    id_arrastre int,
-    primary key(id_viaje),
-    foreign key(id_usuario) references usuario(id_usuario),
-    foreign key(id_cliente) references cliente(id_cliente),
-    foreign key(id_vehiculo) references vehiculo(id_vehiculo),
-    foreign key(id_arrastre) references equipo_arrastre(id_arrastre)
+    primary key(id_viaje)
+
 );
 
 INSERT INTO `camiones`.`rol` (`descripcion`) VALUES ('Administrador');
@@ -106,4 +110,7 @@ INSERT INTO `camiones`.`rol` (`descripcion`) VALUES ('Chofer');
 INSERT INTO `camiones`.`rol` (`descripcion`) VALUES ('Mecanico');
 INSERT INTO `camiones`.`rol` (`descripcion`) VALUES ('Supervisor');
 
-INSERT INTO `camiones`.`usuario` (`nombre`, `apellido`, `dni`, `email`, `contraseña`, `id_rol`) VALUES ('Federico', 'Andrijasevich', '41391603', 'fede_andrijasevich@hotmail.com', md5('estudiantes'), '1');
+INSERT INTO `usuario` ('nombre', 'apellido', 'dni', 'cuil',  'email', 'password', 'id_rol') VALUES ('Victor', 'Guillin', '41391603', '20413916038' ,'administrador@gmail.com','1234', '1'),
+                                                                                                                ('Jorge', 'Gomez', '33556998', '20335569986','supervisor@gmail.com','1234', '2'),
+                                                                                                                ('oscar', 'Lopez', '30456225','20304562251','chofer@gmail.com','1234', '3'),
+                                                                                                                ('ricardo', 'Gonzalez', '28122456','20281224568','mecanico@gmail.com','1234','4');

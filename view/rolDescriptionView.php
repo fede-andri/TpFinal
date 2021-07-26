@@ -1,5 +1,5 @@
 
-{{> header}}
+{{> headerAdministrador}}
 <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
 
     <h2 class="w3-wide">Nuevo Rol</h2>
@@ -29,9 +29,7 @@
 
         {{/rol}}
     </table>
-    {{^rol}}
-    Error cancion no encontrada
-    {{/rol}}
+
 </div>
 
 

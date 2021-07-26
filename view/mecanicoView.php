@@ -11,11 +11,22 @@
 <header>
     <div class="w3-row">
         <div class="w3-col w3-container m4 l4">
-            <img src="images/logo-transporte.png" height="200px" width="200px" alt="Logo" class="w3-padding-16 w3-margin-left">
         </div>
         <div>
-            <h3> hola hola hola Mecanico</h3>
+            <h3 class="w3-display-middle"> pagina para el Mecanico</h3>
             <a href=" index.php?module=login&action=cerrarSesion">Cerrar Sesion</a>
         </div>
     </div>
 </header>
+
+
+
+
+
+
+
+
+
+
+
+{{>footer}}
